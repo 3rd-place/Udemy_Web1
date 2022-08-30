@@ -1,3 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700&display=swap');
+
 body {
-    background-color: green
+    font-family: 'Zen Old Mincho', serif;    
 }
+
+/* Ctrl+/ */
+
+h1,h2,h3 {
+    font-family: "游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+h2 {
+    border-bottom: 1px solid #0671eb;
+}
+
+ul li, ol li {
+    padding: 1em;
+    list-style-position: inside;
+}
+
+ol.answers {
+    list-style: upper-alpha;
+}
+
+ol.answers li:hover {
+    border: 0.1em solid #0671eb;
+    background-color: #b3b9c0;
+    padding: 0.9em;   
+    cursor: pointer; 
+}
+
+div#section-correct-answer {
+    display: none;
+}
+
+span#correct-answer {
+    font-weight: bold;
+    color: #f2081bf6;
+}
+
+/* ID＝＃を　Class=。をつかう */
+div#main {
+    padding: 0 1.5em;
+}
+
+div.section {
+    margin-top: 2em;
+}
+
+
+
+
